@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-26T10:49:01 IST" name="Hackathon Project" finished-at="2024-02-26T10:49:57 IST" duration-ms="56003">
+    <groups>
+    </groups>
+    <test started-at="2024-02-26T10:49:01 IST" name="Test" finished-at="2024-02-26T10:49:57 IST" duration-ms="56003">
+      <class name="testCases.TC1_CarLoan">
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:testCases.TC1_CarLoan@7dcf94f8]" started-at="2024-02-26T10:49:01 IST" name="driverSetup" finished-at="2024-02-26T10:49:17 IST" duration-ms="15900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="btncarloan()[pri:1, instance:testCases.TC1_CarLoan@7dcf94f8]" started-at="2024-02-26T10:49:17 IST" name="btncarloan" finished-at="2024-02-26T10:49:18 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btncarloan -->
+        <test-method signature="amthomeloan()[pri:2, instance:testCases.TC1_CarLoan@7dcf94f8]" started-at="2024-02-26T10:49:18 IST" name="amthomeloan" finished-at="2024-02-26T10:49:18 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amthomeloan -->
+        <test-method signature="rateinterest()[pri:3, instance:testCases.TC1_CarLoan@7dcf94f8]" started-at="2024-02-26T10:49:19 IST" name="rateinterest" finished-at="2024-02-26T10:49:19 IST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rateinterest -->
+        <test-method signature="tenureloan()[pri:4, instance:testCases.TC1_CarLoan@7dcf94f8]" started-at="2024-02-26T10:49:19 IST" name="tenureloan" finished-at="2024-02-26T10:49:22 IST" duration-ms="2680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tenureloan -->
+        <test-method signature="advanceemibtn()[pri:5, instance:testCases.TC1_CarLoan@7dcf94f8]" started-at="2024-02-26T10:49:22 IST" name="advanceemibtn" finished-at="2024-02-26T10:49:22 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advanceemibtn -->
+        <test-method signature="tableyear()[pri:6, instance:testCases.TC1_CarLoan@7dcf94f8]" started-at="2024-02-26T10:49:23 IST" name="tableyear" finished-at="2024-02-26T10:49:26 IST" duration-ms="3110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableyear -->
+        <test-method signature="amtp_int()[pri:7, instance:testCases.TC1_CarLoan@7dcf94f8]" started-at="2024-02-26T10:49:26 IST" name="amtp_int" finished-at="2024-02-26T10:49:27 IST" duration-ms="1279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amtp_int -->
+        <test-method signature="arrearsemi()[pri:8, instance:testCases.TC1_CarLoan@7dcf94f8]" started-at="2024-02-26T10:49:27 IST" name="arrearsemi" finished-at="2024-02-26T10:49:27 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arrearsemi -->
+        <test-method signature="arrAmtp_int()[pri:9, instance:testCases.TC1_CarLoan@7dcf94f8]" started-at="2024-02-26T10:49:28 IST" name="arrAmtp_int" finished-at="2024-02-26T10:49:31 IST" duration-ms="3515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arrAmtp_int -->
+        <test-method signature="menuBar()[pri:10, instance:testCases.TC1_CarLoan@7dcf94f8]" started-at="2024-02-26T10:49:31 IST" name="menuBar" finished-at="2024-02-26T10:49:33 IST" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuBar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC1_CarLoan@7dcf94f8]" started-at="2024-02-26T10:49:56 IST" name="tearDown" finished-at="2024-02-26T10:49:57 IST" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC1_CarLoan -->
+      <class name="testCases.TC3_LoanCalc">
+        <test-method signature="calcLoan()[pri:1, instance:testCases.TC3_LoanCalc@3eb738bb]" started-at="2024-02-26T10:49:45 IST" name="calcLoan" finished-at="2024-02-26T10:49:47 IST" duration-ms="1176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calcLoan -->
+        <test-method signature="emiBtn()[pri:2, instance:testCases.TC3_LoanCalc@3eb738bb]" started-at="2024-02-26T10:49:47 IST" name="emiBtn" finished-at="2024-02-26T10:49:47 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiBtn -->
+        <test-method signature="amtLoan()[pri:3, instance:testCases.TC3_LoanCalc@3eb738bb]" started-at="2024-02-26T10:49:47 IST" name="amtLoan" finished-at="2024-02-26T10:49:48 IST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amtLoan -->
+        <test-method signature="rInterest()[pri:4, instance:testCases.TC3_LoanCalc@3eb738bb]" started-at="2024-02-26T10:49:48 IST" name="rInterest" finished-at="2024-02-26T10:49:48 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rInterest -->
+        <test-method signature="yearLoanTenure()[pri:5, instance:testCases.TC3_LoanCalc@3eb738bb]" started-at="2024-02-26T10:49:49 IST" name="yearLoanTenure" finished-at="2024-02-26T10:49:50 IST" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yearLoanTenure -->
+        <test-method signature="monthLoanTenure()[pri:6, instance:testCases.TC3_LoanCalc@3eb738bb]" started-at="2024-02-26T10:49:50 IST" name="monthLoanTenure" finished-at="2024-02-26T10:49:51 IST" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- monthLoanTenure -->
+        <test-method signature="amountLoan()[pri:7, instance:testCases.TC3_LoanCalc@3eb738bb]" started-at="2024-02-26T10:49:51 IST" name="amountLoan" finished-at="2024-02-26T10:49:54 IST" duration-ms="2792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amountLoan -->
+        <test-method signature="tenureLoan()[pri:8, instance:testCases.TC3_LoanCalc@3eb738bb]" started-at="2024-02-26T10:49:54 IST" name="tenureLoan" finished-at="2024-02-26T10:49:56 IST" duration-ms="1890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tenureLoan -->
+      </class> <!-- testCases.TC3_LoanCalc -->
+      <class name="testCases.TC2_HomeEmiCalc">
+        <test-method signature="yearTable()[pri:1, instance:testCases.TC2_HomeEmiCalc@233795b6]" started-at="2024-02-26T10:49:33 IST" name="yearTable" finished-at="2024-02-26T10:49:36 IST" duration-ms="3305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yearTable -->
+        <test-method signature="tableloan()[pri:2, instance:testCases.TC2_HomeEmiCalc@233795b6]" started-at="2024-02-26T10:49:36 IST" name="tableloan" finished-at="2024-02-26T10:49:45 IST" duration-ms="8744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableloan -->
+      </class> <!-- testCases.TC2_HomeEmiCalc -->
+    </test> <!-- Test -->
+  </suite> <!-- Hackathon Project -->
+</testng-results>
