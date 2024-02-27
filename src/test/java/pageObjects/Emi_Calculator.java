@@ -30,8 +30,10 @@ public class Emi_Calculator extends BasePage {
 	@FindBy(xpath="//a[text()='Car Loan']")
 	WebElement car_loan;
 	
-	public void carloanbtn() {
+	public String carloanbtn() {
+		String url = driver.getCurrentUrl();
 		car_loan.click();
+		return url;
 	}
 	
 	
