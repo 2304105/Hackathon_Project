@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Hackathon_Project">
+	<groups>
+	<run>
+	<include name="master"/>
+	<include name="smoke"/>
+	<include name="Regression"/>
+	<include name="sanity"/>
+	</run>
+	</groups>
+	
+	
+<listeners>
+<listener class-name="Utilities.Extent_Report"/>
+</listeners>
+
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="testCases.TC1_CarLoan"/>
+      <class name="testCases.TC3_LoanCalc"/>
+      <class name="testCases.TC2_HomeEmiCalc"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Hackathon_Project -->

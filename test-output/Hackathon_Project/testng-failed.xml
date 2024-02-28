@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Hackathon Project]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [Hackathon_Project]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="Utilities.Extent_Report"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="master"/>
+        <include name="smoke"/>
+        <include name="Regression"/>
+        <include name="sanity"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testCases.TC2_HomeEmiCalc">
-        <methods>
-          <include name="driverSetup"/>
-          <include name="tearDown"/>
-          <include name="yearTable"/>
-        </methods>
-      </class> <!-- testCases.TC2_HomeEmiCalc -->
       <class name="testCases.TC3_LoanCalc">
         <methods>
           <include name="yearLoanTenure"/>
@@ -28,6 +29,14 @@
           <include name="amountLoan"/>
         </methods>
       </class> <!-- testCases.TC3_LoanCalc -->
+      <class name="testCases.TC2_HomeEmiCalc">
+        <methods>
+          <include name="tearDown"/>
+          <include name="driverSetup"/>
+          <include name="tableloan"/>
+          <include name="yearTable"/>
+        </methods>
+      </class> <!-- testCases.TC2_HomeEmiCalc -->
     </classes>
   </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Hackathon Project] -->
+</suite> <!-- Failed suite [Hackathon_Project] -->

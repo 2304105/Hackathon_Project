@@ -5,13 +5,27 @@
     <listener class-name="Utilities.Extent_Report"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
-    <parameter name="browser" value="edge"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="testCases.TC2_HomeEmiCalc">
+        <methods>
+          <include name="driverSetup"/>
+          <include name="tearDown"/>
+          <include name="yearTable"/>
+        </methods>
+      </class> <!-- testCases.TC2_HomeEmiCalc -->
       <class name="testCases.TC3_LoanCalc">
         <methods>
+          <include name="yearLoanTenure"/>
+          <include name="calcLoan"/>
           <include name="amtLoan"/>
-          <include name="tearDown"/>
           <include name="driverSetup"/>
+          <include name="tearDown"/>
+          <include name="rInterest"/>
+          <include name="emiBtn"/>
+          <include name="tenureLoan"/>
+          <include name="monthLoanTenure"/>
+          <include name="amountLoan"/>
         </methods>
       </class> <!-- testCases.TC3_LoanCalc -->
     </classes>

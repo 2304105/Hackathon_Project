@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Header view Functional Testing</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Feb 26, 2024 10:49:01 am</span></a>
+<a href="#"><span class="badge badge-primary">Feb 28, 2024 04:16:25 pm</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
@@ -71,17 +76,23 @@
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
 </li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">master</a><a class="dropdown-item" href="#">regression</a><a class="dropdown-item" href="#">sanity</a>
+</ul>
+</li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
         <li class="test-item"  status="pass" test-id="1"
           author=""
-          tag=""
+          tag="master sanity"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC1_CarLoan</p>
             <p class="text-sm">
-              <span>10:49:18 am</span> / <span>00:00:00:345</span>
+              <span>4:17:22 pm</span> / <span>00:00:00:577</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -90,14 +101,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC1_CarLoan</h5>
-<span class='badge badge-success'>02.26.2024 10:49:18 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:18 am</span>
-<span class='badge badge-default'>00:00:00:345</span>
+<span class='badge badge-success'>02.28.2024 4:17:22 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:17:22 pm</span>
+<span class='badge badge-default'>00:00:00:577</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">sanity</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/btncarloan.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/btncarloan.png">
@@ -109,7 +122,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:18 am</td>
+        <td>4:17:22 pm</td>
         <td>
           btncarloan got successfully executed
         </td>
@@ -121,12 +134,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="2"
           author=""
-          tag=""
+          tag="master regression sanity"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC1_CarLoan</p>
             <p class="text-sm">
-              <span>10:49:18 am</span> / <span>00:00:00:237</span>
+              <span>4:17:23 pm</span> / <span>00:00:00:349</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -135,14 +148,17 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC1_CarLoan</h5>
-<span class='badge badge-success'>02.26.2024 10:49:18 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:19 am</span>
-<span class='badge badge-default'>00:00:00:237</span>
+<span class='badge badge-success'>02.28.2024 4:17:23 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:17:24 pm</span>
+<span class='badge badge-default'>00:00:00:349</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">sanity</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/amthomeloan.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/amthomeloan.png">
@@ -154,7 +170,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:18 am</td>
+        <td>4:17:23 pm</td>
         <td>
           amthomeloan got successfully executed
         </td>
@@ -166,12 +182,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="3"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC1_CarLoan</p>
             <p class="text-sm">
-              <span>10:49:19 am</span> / <span>00:00:00:231</span>
+              <span>4:17:24 pm</span> / <span>00:00:00:353</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -180,14 +196,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC1_CarLoan</h5>
-<span class='badge badge-success'>02.26.2024 10:49:19 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:19 am</span>
-<span class='badge badge-default'>00:00:00:231</span>
+<span class='badge badge-success'>02.28.2024 4:17:24 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:17:25 pm</span>
+<span class='badge badge-default'>00:00:00:353</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/rateinterest.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/rateinterest.png">
@@ -199,7 +217,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:19 am</td>
+        <td>4:17:24 pm</td>
         <td>
           rateinterest got successfully executed
         </td>
@@ -211,12 +229,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="4"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC1_CarLoan</p>
             <p class="text-sm">
-              <span>10:49:22 am</span> / <span>00:00:00:158</span>
+              <span>4:17:27 pm</span> / <span>00:00:00:276</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -225,14 +243,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC1_CarLoan</h5>
-<span class='badge badge-success'>02.26.2024 10:49:22 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:22 am</span>
-<span class='badge badge-default'>00:00:00:158</span>
+<span class='badge badge-success'>02.28.2024 4:17:27 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:17:28 pm</span>
+<span class='badge badge-default'>00:00:00:276</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/tenureloan.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/tenureloan.png">
@@ -244,7 +264,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:22 am</td>
+        <td>4:17:27 pm</td>
         <td>
           tenureloan got successfully executed
         </td>
@@ -256,12 +276,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="5"
           author=""
-          tag=""
+          tag="master sanity"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC1_CarLoan</p>
             <p class="text-sm">
-              <span>10:49:22 am</span> / <span>00:00:00:278</span>
+              <span>4:17:28 pm</span> / <span>00:00:00:518</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -270,14 +290,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC1_CarLoan</h5>
-<span class='badge badge-success'>02.26.2024 10:49:22 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:23 am</span>
-<span class='badge badge-default'>00:00:00:278</span>
+<span class='badge badge-success'>02.28.2024 4:17:28 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:17:28 pm</span>
+<span class='badge badge-default'>00:00:00:518</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">sanity</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/advanceemibtn.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/advanceemibtn.png">
@@ -289,7 +311,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:22 am</td>
+        <td>4:17:28 pm</td>
         <td>
           advanceemibtn got successfully executed
         </td>
@@ -301,12 +323,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="6"
           author=""
-          tag=""
+          tag="master"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC1_CarLoan</p>
             <p class="text-sm">
-              <span>10:49:26 am</span> / <span>00:00:00:150</span>
+              <span>4:17:31 pm</span> / <span>00:00:00:211</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -315,14 +337,15 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC1_CarLoan</h5>
-<span class='badge badge-success'>02.26.2024 10:49:26 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:26 am</span>
-<span class='badge badge-default'>00:00:00:150</span>
+<span class='badge badge-success'>02.28.2024 4:17:31 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:17:32 pm</span>
+<span class='badge badge-default'>00:00:00:211</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/tableyear.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/tableyear.png">
@@ -334,7 +357,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:26 am</td>
+        <td>4:17:31 pm</td>
         <td>
           tableyear got successfully executed
         </td>
@@ -346,12 +369,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="7"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC1_CarLoan</p>
             <p class="text-sm">
-              <span>10:49:27 am</span> / <span>00:00:00:148</span>
+              <span>4:17:34 pm</span> / <span>00:00:00:224</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -360,14 +383,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC1_CarLoan</h5>
-<span class='badge badge-success'>02.26.2024 10:49:27 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:27 am</span>
-<span class='badge badge-default'>00:00:00:148</span>
+<span class='badge badge-success'>02.28.2024 4:17:34 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:17:34 pm</span>
+<span class='badge badge-default'>00:00:00:224</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/amtp_int.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/amtp_int.png">
@@ -379,7 +404,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:27 am</td>
+        <td>4:17:34 pm</td>
         <td>
           amtp_int got successfully executed
         </td>
@@ -391,12 +416,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="8"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC1_CarLoan</p>
             <p class="text-sm">
-              <span>10:49:27 am</span> / <span>00:00:00:260</span>
+              <span>4:17:35 pm</span> / <span>00:00:00:402</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -405,14 +430,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC1_CarLoan</h5>
-<span class='badge badge-success'>02.26.2024 10:49:27 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:28 am</span>
-<span class='badge badge-default'>00:00:00:260</span>
+<span class='badge badge-success'>02.28.2024 4:17:35 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:17:35 pm</span>
+<span class='badge badge-default'>00:00:00:402</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/arrearsemi.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/arrearsemi.png">
@@ -424,7 +451,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:27 am</td>
+        <td>4:17:35 pm</td>
         <td>
           arrearsemi got successfully executed
         </td>
@@ -436,12 +463,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="9"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC1_CarLoan</p>
             <p class="text-sm">
-              <span>10:49:31 am</span> / <span>00:00:00:155</span>
+              <span>4:17:39 pm</span> / <span>00:00:00:370</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -450,14 +477,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC1_CarLoan</h5>
-<span class='badge badge-success'>02.26.2024 10:49:31 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:31 am</span>
-<span class='badge badge-default'>00:00:00:155</span>
+<span class='badge badge-success'>02.28.2024 4:17:39 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:17:39 pm</span>
+<span class='badge badge-default'>00:00:00:370</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/arrAmtp_int.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/arrAmtp_int.png">
@@ -469,7 +498,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:31 am</td>
+        <td>4:17:39 pm</td>
         <td>
           arrAmtp_int got successfully executed
         </td>
@@ -481,12 +510,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="10"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC1_CarLoan</p>
             <p class="text-sm">
-              <span>10:49:33 am</span> / <span>00:00:00:222</span>
+              <span>4:18:24 pm</span> / <span>00:00:00:304</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -495,14 +524,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC1_CarLoan</h5>
-<span class='badge badge-success'>02.26.2024 10:49:33 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:33 am</span>
-<span class='badge badge-default'>00:00:00:222</span>
+<span class='badge badge-success'>02.28.2024 4:18:24 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:18:24 pm</span>
+<span class='badge badge-default'>00:00:00:304</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/menuBar.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/menuBar.png">
@@ -514,7 +545,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:33 am</td>
+        <td>4:18:24 pm</td>
         <td>
           menuBar got successfully executed
         </td>
@@ -526,12 +557,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="11"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC2_HomeEmiCalc</p>
             <p class="text-sm">
-              <span>10:49:36 am</span> / <span>00:00:00:154</span>
+              <span>4:18:27 pm</span> / <span>00:00:00:252</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -540,14 +571,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC2_HomeEmiCalc</h5>
-<span class='badge badge-success'>02.26.2024 10:49:36 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:36 am</span>
-<span class='badge badge-default'>00:00:00:154</span>
+<span class='badge badge-success'>02.28.2024 4:18:27 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:18:28 pm</span>
+<span class='badge badge-default'>00:00:00:252</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/yearTable.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/yearTable.png">
@@ -559,7 +592,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:36 am</td>
+        <td>4:18:27 pm</td>
         <td>
           yearTable got successfully executed
         </td>
@@ -571,12 +604,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="12"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC2_HomeEmiCalc</p>
             <p class="text-sm">
-              <span>10:49:45 am</span> / <span>00:00:00:244</span>
+              <span>4:18:42 pm</span> / <span>00:00:00:242</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -585,14 +618,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC2_HomeEmiCalc</h5>
-<span class='badge badge-success'>02.26.2024 10:49:45 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:45 am</span>
-<span class='badge badge-default'>00:00:00:244</span>
+<span class='badge badge-success'>02.28.2024 4:18:42 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:18:42 pm</span>
+<span class='badge badge-default'>00:00:00:242</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/tableloan.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/tableloan.png">
@@ -604,7 +639,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:45 am</td>
+        <td>4:18:42 pm</td>
         <td>
           tableloan got successfully executed
         </td>
@@ -616,12 +651,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="13"
           author=""
-          tag=""
+          tag="master sanity"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC3_LoanCalc</p>
             <p class="text-sm">
-              <span>10:49:47 am</span> / <span>00:00:00:252</span>
+              <span>4:19:05 pm</span> / <span>00:00:00:300</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -630,14 +665,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC3_LoanCalc</h5>
-<span class='badge badge-success'>02.26.2024 10:49:47 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:47 am</span>
-<span class='badge badge-default'>00:00:00:252</span>
+<span class='badge badge-success'>02.28.2024 4:19:05 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:19:06 pm</span>
+<span class='badge badge-default'>00:00:00:300</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">sanity</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/calcLoan.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/calcLoan.png">
@@ -649,7 +686,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:47 am</td>
+        <td>4:19:05 pm</td>
         <td>
           calcLoan got successfully executed
         </td>
@@ -661,12 +698,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="14"
           author=""
-          tag=""
+          tag="master sanity"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC3_LoanCalc</p>
             <p class="text-sm">
-              <span>10:49:47 am</span> / <span>00:00:00:230</span>
+              <span>4:19:06 pm</span> / <span>00:00:00:381</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -675,14 +712,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC3_LoanCalc</h5>
-<span class='badge badge-success'>02.26.2024 10:49:47 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:47 am</span>
-<span class='badge badge-default'>00:00:00:230</span>
+<span class='badge badge-success'>02.28.2024 4:19:06 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:19:06 pm</span>
+<span class='badge badge-default'>00:00:00:381</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">sanity</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/emiBtn.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/emiBtn.png">
@@ -694,7 +733,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:47 am</td>
+        <td>4:19:06 pm</td>
         <td>
           emiBtn got successfully executed
         </td>
@@ -706,12 +745,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="15"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC3_LoanCalc</p>
             <p class="text-sm">
-              <span>10:49:48 am</span> / <span>00:00:00:211</span>
+              <span>4:19:07 pm</span> / <span>00:00:00:313</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -720,14 +759,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC3_LoanCalc</h5>
-<span class='badge badge-success'>02.26.2024 10:49:48 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:48 am</span>
-<span class='badge badge-default'>00:00:00:211</span>
+<span class='badge badge-success'>02.28.2024 4:19:07 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:19:07 pm</span>
+<span class='badge badge-default'>00:00:00:313</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/amtLoan.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/amtLoan.png">
@@ -739,7 +780,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:48 am</td>
+        <td>4:19:07 pm</td>
         <td>
           amtLoan got successfully executed
         </td>
@@ -751,12 +792,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="16"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC3_LoanCalc</p>
             <p class="text-sm">
-              <span>10:49:48 am</span> / <span>00:00:00:202</span>
+              <span>4:19:08 pm</span> / <span>00:00:00:311</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -765,14 +806,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC3_LoanCalc</h5>
-<span class='badge badge-success'>02.26.2024 10:49:48 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:49 am</span>
-<span class='badge badge-default'>00:00:00:202</span>
+<span class='badge badge-success'>02.28.2024 4:19:08 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:19:08 pm</span>
+<span class='badge badge-default'>00:00:00:311</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/rInterest.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/rInterest.png">
@@ -784,7 +827,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:48 am</td>
+        <td>4:19:08 pm</td>
         <td>
           rInterest got successfully executed
         </td>
@@ -796,12 +839,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="17"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC3_LoanCalc</p>
             <p class="text-sm">
-              <span>10:49:50 am</span> / <span>00:00:00:191</span>
+              <span>4:19:09 pm</span> / <span>00:00:00:300</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -810,14 +853,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC3_LoanCalc</h5>
-<span class='badge badge-success'>02.26.2024 10:49:50 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:50 am</span>
-<span class='badge badge-default'>00:00:00:191</span>
+<span class='badge badge-success'>02.28.2024 4:19:09 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:19:09 pm</span>
+<span class='badge badge-default'>00:00:00:300</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/yearLoanTenure.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/yearLoanTenure.png">
@@ -829,7 +874,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:50 am</td>
+        <td>4:19:09 pm</td>
         <td>
           yearLoanTenure got successfully executed
         </td>
@@ -841,12 +886,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="18"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC3_LoanCalc</p>
             <p class="text-sm">
-              <span>10:49:51 am</span> / <span>00:00:00:179</span>
+              <span>4:19:10 pm</span> / <span>00:00:00:340</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -855,14 +900,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC3_LoanCalc</h5>
-<span class='badge badge-success'>02.26.2024 10:49:51 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:51 am</span>
-<span class='badge badge-default'>00:00:00:179</span>
+<span class='badge badge-success'>02.28.2024 4:19:10 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:19:11 pm</span>
+<span class='badge badge-default'>00:00:00:340</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/monthLoanTenure.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/monthLoanTenure.png">
@@ -874,7 +921,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:51 am</td>
+        <td>4:19:10 pm</td>
         <td>
           monthLoanTenure got successfully executed
         </td>
@@ -886,12 +933,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="19"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC3_LoanCalc</p>
             <p class="text-sm">
-              <span>10:49:54 am</span> / <span>00:00:00:179</span>
+              <span>4:19:14 pm</span> / <span>00:00:00:281</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -900,14 +947,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC3_LoanCalc</h5>
-<span class='badge badge-success'>02.26.2024 10:49:54 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:54 am</span>
-<span class='badge badge-default'>00:00:00:179</span>
+<span class='badge badge-success'>02.28.2024 4:19:14 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:19:14 pm</span>
+<span class='badge badge-default'>00:00:00:281</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/amountLoan.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/amountLoan.png">
@@ -919,7 +968,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:54 am</td>
+        <td>4:19:14 pm</td>
         <td>
           amountLoan got successfully executed
         </td>
@@ -931,12 +980,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="20"
           author=""
-          tag=""
+          tag="master regression"
           device="">
           <div class="test-detail">
             <p class="name">testCases.TC3_LoanCalc</p>
             <p class="text-sm">
-              <span>10:49:56 am</span> / <span>00:00:00:179</span>
+              <span>4:19:17 pm</span> / <span>00:00:00:283</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -945,14 +994,16 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testCases.TC3_LoanCalc</h5>
-<span class='badge badge-success'>02.26.2024 10:49:56 am</span>
-<span class='badge badge-danger'>02.26.2024 10:49:56 am</span>
-<span class='badge badge-default'>00:00:00:179</span>
+<span class='badge badge-success'>02.28.2024 4:19:17 pm</span>
+<span class='badge badge-danger'>02.28.2024 4:19:17 pm</span>
+<span class='badge badge-default'>00:00:00:283</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">master</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/tenureLoan.png' src="C:\Users\2304105\eclipse-workspace\Hackathon_Project./Reports/Screenshot/tenureLoan.png">
@@ -964,7 +1015,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>10:49:56 am</td>
+        <td>4:19:17 pm</td>
         <td>
           tenureLoan got successfully executed
         </td>
@@ -983,18 +1034,392 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="container-fluid p-4 view dashboard-view">
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>20</span>
+</span>
+<p class="name">master</p>
+<p class="duration text-sm">20 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>master</h4>
+<span status="pass" class='badge log pass-bg'>20 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:22 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:23 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:28 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:31 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:34 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:35 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:18:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:18:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>testCases.TC2_HomeEmiCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:18:42 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>testCases.TC2_HomeEmiCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:05 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:06 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:08 pm</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:09 pm</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:14 pm</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:17 pm</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>15</span>
+</span>
+<p class="name">regression</p>
+<p class="duration text-sm">15 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>regression</h4>
+<span status="pass" class='badge log pass-bg'>15 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:23 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:34 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:35 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:18:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:18:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>testCases.TC2_HomeEmiCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:18:42 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>testCases.TC2_HomeEmiCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:08 pm</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:09 pm</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:14 pm</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:17 pm</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">sanity</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>sanity</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:22 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:23 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:17:28 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>testCases.TC1_CarLoan</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:05 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:06 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>testCases.TC3_LoanCalc</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
 <div class="row">
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Feb 26, 2024 10:49:01 am</h3>
+<h3>Feb 28, 2024 04:16:25 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Feb 26, 2024 10:49:57 am</h3>
+<h3>Feb 28, 2024 04:19:18 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -1064,10 +1489,43 @@
 </div></div>
 <script>
 var timeline = {
-"testCases.TC1_CarLoan":0.345,"testCases.TC1_CarLoan":0.237,"testCases.TC1_CarLoan":0.231,"testCases.TC1_CarLoan":0.158,"testCases.TC1_CarLoan":0.278,"testCases.TC1_CarLoan":0.15,"testCases.TC1_CarLoan":0.148,"testCases.TC1_CarLoan":0.26,"testCases.TC1_CarLoan":0.155,"testCases.TC1_CarLoan":0.222,"testCases.TC2_HomeEmiCalc":0.154,"testCases.TC2_HomeEmiCalc":0.244,"testCases.TC3_LoanCalc":0.252,"testCases.TC3_LoanCalc":0.23,"testCases.TC3_LoanCalc":0.211,"testCases.TC3_LoanCalc":0.202,"testCases.TC3_LoanCalc":0.191,"testCases.TC3_LoanCalc":0.179,"testCases.TC3_LoanCalc":0.179,"testCases.TC3_LoanCalc":0.179
+"testCases.TC1_CarLoan":0.577,"testCases.TC1_CarLoan":0.349,"testCases.TC1_CarLoan":0.353,"testCases.TC1_CarLoan":0.276,"testCases.TC1_CarLoan":0.518,"testCases.TC1_CarLoan":0.211,"testCases.TC1_CarLoan":0.224,"testCases.TC1_CarLoan":0.402,"testCases.TC1_CarLoan":0.37,"testCases.TC1_CarLoan":0.304,"testCases.TC2_HomeEmiCalc":0.252,"testCases.TC2_HomeEmiCalc":0.242,"testCases.TC3_LoanCalc":0.3,"testCases.TC3_LoanCalc":0.381,"testCases.TC3_LoanCalc":0.313,"testCases.TC3_LoanCalc":0.311,"testCases.TC3_LoanCalc":0.3,"testCases.TC3_LoanCalc":0.34,"testCases.TC3_LoanCalc":0.281,"testCases.TC3_LoanCalc":0.283
 };
 </script>
 <div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>master</td>
+<td>20</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>regression</td>
+<td>15</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>sanity</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
 <div class="col-lg-6 col-md-12 sysenv-container">
 <div class="card">
 <div class="card-header"><p>System/Environment</p></div>

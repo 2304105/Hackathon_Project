@@ -1,8 +1,6 @@
 package stepDefinations;
 
 
-
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
@@ -34,7 +32,7 @@ public class Allsteps {
 	
 	@Given("User fetch the car loan title")
 	public void user_fetch_the_car_loan_title() throws Exception {
-		
+		ec.carLoanTitle();
 	}
 
 	@When("User verifies the title")

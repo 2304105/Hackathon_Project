@@ -4,22 +4,17 @@ package testBase;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.URL;
 import java.time.Duration;
 import java.util.Properties;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -31,7 +26,7 @@ public class BaseClass {
 	public Properties p;
 	
 	
-	@BeforeTest
+	@BeforeTest(groups={"master","sanity","regression","smoke"})
 	@Parameters("browser")
 	public WebDriver driverSetup(String browser) throws IOException {
 		logger = LogManager.getLogger(this.getClass());
@@ -86,7 +81,7 @@ public class BaseClass {
 //			}
 //
 //		}
-//		
+		
 		
 		if(browser.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
@@ -120,7 +115,7 @@ public class BaseClass {
 			return trgpath;
 	}
 	
-	@AfterTest
+	@AfterTest(groups="master")
 	public void tearDown() {
 		driver.quit();
 		logger.info("Browser closed successfully___☑️");

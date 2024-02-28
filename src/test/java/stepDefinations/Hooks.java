@@ -27,6 +27,7 @@ public class Hooks {
 	public void teardown() {
 		driver.quit();
 	}
+	
 	public void addScreenshot(Scenario scenario) {
 		// this is for cucumber junit report  
         if(scenario.isFailed()) {
